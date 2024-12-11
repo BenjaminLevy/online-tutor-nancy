@@ -53,6 +53,8 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	border: 20em !important;
+	border-color: blue !important;
 }
 
 mark {
@@ -83,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+		padding-top: 2em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -100,8 +102,8 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
-		font-weight: 300;
+		color: #52525;
+		font-weight: 500;
 		font-size: 13pt;
 	}
 
@@ -1611,6 +1613,8 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
+	border: 20em !important;
+	border-color: blue !important;
 	}
 
 	section > :last-child,
@@ -2104,9 +2108,15 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	#form {
+		background-color: #a9d0f5;
+		/* background-color: #dcffa6; */
+	}
 	#top {
-		padding: 10em 0 10em 0;
+		padding: 4em 0 0em 0;
 		text-align: left;
+		background-color: #e6fcc2;
+		/* background-color: #dcffa6; */
 	}
 
 		#top .image {
@@ -2208,7 +2218,7 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 8em 0;
+				padding: 5em 0 0 0;
 			}
 
 				#top .image {
@@ -2242,9 +2252,9 @@ input, select, textarea {
 
 		/* Basic */
 
-			body {
+			/* body {
 				padding-top: 44px;
-			}
+			} */
 
 			body, input, textarea, select {
 				line-height: 1.75em;
@@ -2406,7 +2416,7 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 3em 0;
+				padding: 0em 0;
 			}
 
 				#top .image {
