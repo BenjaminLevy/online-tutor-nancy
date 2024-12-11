@@ -278,10 +278,13 @@ input, select, textarea {
 				max-width: calc(100% - 30px);
 			}
 
-				.container.medium {
-					width: 100%;
-				}
+            .container.medium {
+                width: 100%;
+            }
 
+            .iframe[src*="youtube"] {
+                    width: 100% !important;
+            }
 		}
 
 /* Row */
@@ -2453,6 +2456,8 @@ input, select, textarea {
 					}
 
 	}
-.video {
-    padding 0em 0 !important;
+.video-container {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
+
